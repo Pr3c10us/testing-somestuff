@@ -406,7 +406,7 @@ variable "ui_bucket_name" {
 
 
 variable "domain_subnet_ids" {
-  default = ""
+  default = [""]
   type = list(string)
 }
 
