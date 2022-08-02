@@ -406,10 +406,12 @@ variable "ui_bucket_name" {
 
 
 variable "domain_subnet_ids" {
+  default = ""
   type = list(string)
 }
 
 variable "vpc_id" {
+  default = ""
   type = string
 }
 
